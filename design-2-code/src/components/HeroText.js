@@ -4,14 +4,14 @@ import styled from "styled-components";
 const HeroText = () => {
   return (
     <Container>
-      <h5>Online education for people of all ages</h5>
-      <h1>Learn</h1>
-      <h1>Anything.</h1>
-      <h1>Anytime.</h1>
-      <h1>Anywhere.</h1>
+      <h5>Consider Donating Today.</h5>
+      <h1>Charity.</h1>
+      <h1>Mutual Aid.</h1>
+      <h1>Philanthropy.</h1>
+      <h1>We Care.</h1>
       <BtnContainer>
         <button className="readmore">Read More</button>
-        <button>7 Day Free Trial</button>
+        <button>Monthly Subscription</button>
       </BtnContainer>
     </Container>
   );
@@ -49,7 +49,7 @@ const BtnContainer = styled.div`
 const Container = styled.div`
   padding: 1rem;
   h5 {
-    color: #515151;
+    color:#1da1de;
     font-weight: 500;
     font-size: 0.9rem;
     margin-bottom: 1rem;
@@ -58,17 +58,17 @@ const Container = styled.div`
     font-size: 3.5rem;
     font-weight: 900;
     &:nth-of-type(1) {
-      color: #af60ff;
+      color: #f5b3e9;
       font-weight: 700;
     }
     &:nth-of-type(2) {
-      color: #8849c7;
+      color: #f288df;
     }
     &:nth-of-type(3) {
-      color: #651fac;
+      color: #ed47cf;
     }
     &:nth-of-type(4) {
-      color: #3c0473;
+      color: #cf08ab;
     }
   }
 `;

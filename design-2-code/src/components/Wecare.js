@@ -4,8 +4,6 @@ import image from "../assets/hero.png";
 import bg from "../assets/bg.png";
 import HeroText from "./HeroText";
 import Tilt from "react-tilt";
-import wecare from "../assets/wecare.png";
-
 
 const Hero = () => {
   return (
@@ -23,11 +21,6 @@ const Hero = () => {
     </Container>
   );
 };
-
-
-
-
-
 
 const Left = styled.div`
   width: 40%;
